@@ -1,0 +1,1 @@
+TOKEN, Click karta raqami va karta egasini config.py ichiga yozing.

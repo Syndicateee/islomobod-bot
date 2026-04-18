@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Islomobod Choyxonasi Mini App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Telegram Mini App</p>
+        <h1>Islomobod Choyxonasi</h1>
+        <p class="subtitle">Buyurtma, xona band qilish va kontaktlar — barchasi bitta oynada.</p>
+      </div>
+      <button id="closeBtn" class="ghost-btn">Bosh menyu</button>
+    </header>
+
+    <section class="stats">
+      <div class="stat-card">
+        <span>🍽 Menyu</span>
+        <strong>Tez orada</strong>
+      </div>
+      <div class="stat-card">
+        <span>🏠 Xonalar</span>
+        <strong>Band qilish</strong>
+      </div>
+      <div class="stat-card">
+        <span>📍 Kontakt</span>
+        <strong>Doim ochiq</strong>
+      </div>
+    </section>
+
+    <section class="grid">
+      <button class="feature-card" data-action="order">
+        <span class="icon">🍽</span>
+        <span class="title">Buyurtma berish</span>
+        <span class="desc">Taom va qo‘shimchalarni tez tanlash.</span>
+      </button>
+      <button class="feature-card" data-action="booking">
+        <span class="icon">🏠</span>
+        <span class="title">Xona band qilish</span>
+        <span class="desc">Kalendar orqali xona bron qilish.</span>
+      </button>
+      <button class="feature-card" data-action="foods">
+        <span class="icon">🖼</span>
+        <span class="title">Taomlar</span>
+        <span class="desc">Tez orada rasmli menyu qo‘shiladi.</span>
+      </button>
+      <button class="feature-card" data-action="contact">
+        <span class="icon">📞</span>
+        <span class="title">Kontakt</span>
+        <span class="desc">Telefon, manzil va lokatsiya ma’lumoti.</span>
+      </button>
+    </section>
+
+    <section class="panel" id="panel">
+      <h2>Ma’lumot oynasi</h2>
+      <p>Pastdagi kartalardan birini bosing.</p>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
