@@ -32,17 +32,3 @@ if (tg) {
   tg.MainButton.onClick(() => {
     tg.sendData(JSON.stringify({ type: 'miniapp_action', text: 'main_button_click' }));
   });
-}
-
-closeBtn.addEventListener('click', () => {
-  if (tg) {
-    tg.close();
-  } else {
-    window.history.back();
-    const tg = window.Telegram.WebApp;
-
-document.getElementById("backBtn").addEventListener("click", () => {
-    tg.close(); // Mini App yopilib botga qaytadi
-});
-  }
-});
