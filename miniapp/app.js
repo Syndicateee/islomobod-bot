@@ -39,5 +39,10 @@ closeBtn.addEventListener('click', () => {
     tg.close();
   } else {
     window.history.back();
+    const tg = window.Telegram.WebApp;
+
+document.getElementById("backBtn").addEventListener("click", () => {
+    tg.close(); // Mini App yopilib botga qaytadi
+});
   }
 });
