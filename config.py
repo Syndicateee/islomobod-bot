@@ -40,7 +40,7 @@ LOCATION_LON = 72.374123
 CLICK_CARD_NUMBER = os.getenv("CLICK_CARD_NUMBER", "5614 6827 0667 9166")
 CLICK_CARD_OWNER = os.getenv("CLICK_CARD_OWNER", "Karimjonov Abduvohid")
 
-MINI_APP_URL = os.getenv("MINI_APP_URL", "MINI_APP_URL = "https://syndicateee.github.io/islomobod-bot/miniapp/"")
+MINI_APP_URL = os.getenv("MINI_APP_URL", "MINI_APP_URL = "https://syndicateee.github.io/islomobod-bot/doc/"")
 
 PRIORITY_THRESHOLD = 600000
 VIP_THRESHOLD = 1000000
